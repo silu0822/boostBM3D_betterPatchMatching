@@ -1,0 +1,33 @@
+D:\libs\fftw-3.3.4-dll32
+
+include folder D:\libs\fftw-3.3.4-dll32
+
+libfftw3-3.lib
+libfftw3l-3.lib
+libfftw3f-3.lib
+
+
+mex -LD:\libs\fftw-3.3.4-dll32 -llibfftw3-3.dll -llibfftw3l-3.dll -llibfftw3f-3.dll bm3dOrgMex.cpp bm3d.h bm3d.cpp lib_transforms.h lib_transforms.cpp utilities.h utilities.cpp
+
+
+mex -LD:\libs\fftw-3.3.4-dll32 -llibfftw3-3.lib -llibfftw3l-3.lib -llibfftw3f-3.lib bm3dOrgMex.cpp bm3d.h bm3d.cpp lib_transforms.h lib_transforms.cpp utilities.h utilities.cpp
+
+mex -LD:/libs/fftw-3.3.4-dll32 -ID:/libs/fftw-3.3.4-dll32 -llibfftw3-3.lib -llibfftw3l-3.lib -llibfftw3f-3.lib bm3dOrgMex.cpp bm3d.h bm3d.cpp lib_transforms.h lib_transforms.cpp utilities.h utilities.cpp
+
+
+
+mex -LD:/libs/fftw-3.3.4-dll32 -ID:/libs/fftw-3.3.4-dll32 -llibfftw3-3.lib -llibfftw3l-3.lib -llibfftw3f-3.lib bm3dOrgMex.cpp bm3d.h bm3d.cpp lib_transforms.h lib_transforms.cpp utilities.h utilities.cpp mt19937ar.h mt19937ar.c
+
+
+mex -LD:/libs/fftw-3.3.4-dll32 -ID:/libs/fftw-3.3.4-dll32 -llibfftw3-3 -llibfftw3l-3 -llibfftw3f-3 bm3dOrgMex.cpp bm3d.h bm3d.cpp lib_transforms.h lib_transforms.cpp utilities.h utilities.cpp mt19937ar.h mt19937ar.c
+
+
+mex -llibfftw3f-3 -LD:\libs\fftw-3.3.4-dll64 -ID:\libs\fftw-3.3.4-dll64 -I./localLib  bm3dOrgMex.cpp bm3d.cpp lib_transforms.cpp utilities.cpp mt19937ar.c
+
+mex -llibfftw3f-3 -L./fftw-3.3.4-dll64 -I./fftw-3.3.4-dll64 -I./localLib  bm3dOrgMex.cpp bm3d.cpp lib_transforms.cpp utilities.cpp mt19937ar.c
+
+
+
+
+
+
