@@ -22,7 +22,7 @@ For academic use only. All rights reserved to the authors of the paper. If you h
 ```
 mex -llibfftw3f-3 -L./fftw-3.3.4-dll64 -I./fftw-3.3.4-dll64 -I./localLib BM3D_core.cpp bm3d.cpp lib_transforms.cpp utilities.cpp mt19937ar.c
 ```
-2. Tested on Windows 7, using MATLAB 2012b and MATLAB 2015b with compatible C/C++ mex compilers
+2. Tested on Windows 7, using MATLAB 2012b and MATLAB 2015b with compatible C/C++ mex compilers.
 
 ## Demo
 Open MATLAB, go to the root folder, run
