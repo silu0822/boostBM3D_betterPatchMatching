@@ -1,6 +1,9 @@
 # boostBM3D_betterPatchMatching
 This is an implementation of a boosted BM3D in our WACV 2019 paper: "Good Similar Patches for Image Denoising."
 
+|![overview-image](wacv2019_PM_overview.png)|
+|:--:|
+|  Overview |
 ## Reference
 Si Lu, Good Similar Patches for Image Denoising, IEEE Winter Conference on Applications of Computer Vision (WACV),  Waikoloa Village, HI, USA. 2019
 http://web.cecs.pdx.edu/~lusi/WACV_311_offical.pdf
